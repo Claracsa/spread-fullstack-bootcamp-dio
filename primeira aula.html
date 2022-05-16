@@ -5,21 +5,32 @@
         <title>
             nome do site
         </title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <img src="imagem preta.jpg" alt="Ilustração preta com circulos brancos">
-            <h1>Título do corpo</h1>
+            <img src="imagem preta.jpg" alt="Ilustração preta com circulos brancos" class="photo">
+            <h1 id="title">Título do corpo</h1>
         </header> 
         <section>
             <header>
-                <h2>Posts</h2>
+                <h2 class="subtitle">Posts</h2>
             </header>
-            <article>
+            <article class="post">
                 <header>
-                    <h3>Post #1</h3>
+                    <h3 class="posttitle">Post #1</h3>
                 </header>
-                <p>
+                <p class="post_content">
+                    Corpo do artigo <br>
+                    link para o <a href="https://www.youtube.com/watch?v=bwg4IbQDvFk&list=RDbwg4IbQDvFk&start_radio=1" target="_blank">YouTube</a><br>
+                    Link para <a href="mailto:clara@email.com">Email aleatório</a>
+                </p>
+            </article>
+            <article class="post">
+                <header>
+                    <h3 class="posttitle">Post #1</h3>
+                </header>
+                <p class="post_content">
                     Corpo do artigo <br>
                     link para o <a href="https://www.youtube.com/watch?v=bwg4IbQDvFk&list=RDbwg4IbQDvFk&start_radio=1" target="_blank">YouTube</a><br>
                     Link para <a href="mailto:clara@email.com">Email aleatório</a>
@@ -28,14 +39,14 @@
         </section>
         <footer>
             <h4>Informações de contato</h4>
-            <ol>
+            <ul class="contacts_list">
                 <li>
                     <a href="https://github.com/Claracsa" target="_blank">GitHub</a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/clara-arantes-42078b151/" target="_blank">LinkedIn</a>
                 </li>
-            </ol>             
+            </ul>             
         </footer>
     </body>
 </html>
